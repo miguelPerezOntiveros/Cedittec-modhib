@@ -178,7 +178,7 @@
                                         
                                         <fieldset>
                                             <div class="control-group">                                         
-                                                <label class="control-label" for="version">Version</label>
+                                                <label class="control-label" for="version">Versión</label>
                                                 <div class="controls">
                                                     <input type="number" name ="insert_version" class="span4" id="codigo">
                                                     
@@ -186,7 +186,7 @@
                                             </div> <!-- /control-group -->
 
                                             <div class="control-group">                                         
-                                                <label class="control-label" for="username">Nombre de usuario</label>
+                                                <label class="control-label" for="username">Alias</label>
                                                 <div class="controls">
                                                     <input type="text" name= "insert_display_name" class="span6" id="username">
                                                     
@@ -227,7 +227,7 @@
                                             <div class="control-group">                                         
                                                 <label class="control-label" for="email">Correo electrónico</label>
                                                 <div class="controls">
-                                                    <input type="text" name = "insert_email" class="span4" id="email">
+                                                    <input type="text" name = "insert_email" placeholder="example@server.com" class="span4" id="email">
                                                 </div> <!-- /controls -->               
                                             </div> <!-- /control-group -->
                                             
@@ -448,7 +448,7 @@ x
                                             </div> <!-- /control-group -->
                                             
                                             <div class="control-group">                                         
-                                                <label class="control-label" for="version">Version</label>
+                                                <label class="control-label" for="version">Versión</label>
                                                 <div class="controls">
                                                     <input type="number" name ="update_version" class="span4" id="codigo">
                                                     
@@ -456,7 +456,7 @@ x
                                             </div> <!-- /control-group -->
 
                                             <div class="control-group">                                         
-                                                <label class="control-label" for="username">Nombre de usuario</label>
+                                                <label class="control-label" for="username">Alias</label>
                                                 <div class="controls">
                                                     <input type="text" name= "update_display_name" class="span6" id="username">
                                                     
@@ -497,7 +497,7 @@ x
                                             <div class="control-group">                                         
                                                 <label class="control-label" for="email">Correo electrónico</label>
                                                 <div class="controls">
-                                                    <input type="text" name = "update_email" class="span4" id="email">
+                                                    <input type="text" name = "update_email" placeholder="example@server.com" class="span4" id="email">
                                                     <input type = "hidden" name = "update_id" id = "update_id" value "0" />
                                                 </div> <!-- /controls -->               
                                             </div> <!-- /control-group -->
@@ -572,7 +572,7 @@ x
                                             </div> <!-- /control-group -->
                                             
                                             <div class="control-group">                                         
-                                                <label class="control-label" for="version">Version</label>
+                                                <label class="control-label" for="version">Versión</label>
                                                 <div class="controls">
                                                     <input type="number" name ="delete_version" class="span4" id="codigo">
                                                     
@@ -580,7 +580,7 @@ x
                                             </div> <!-- /control-group -->
 
                                             <div class="control-group">                                         
-                                                <label class="control-label" for="username">Nombre de usuario</label>
+                                                <label class="control-label" for="username">Alias</label>
                                                 <div class="controls">
                                                     <input type="text" name= "delete_display_name" class="span6" id="username">
                                                     
@@ -621,7 +621,7 @@ x
                                             <div class="control-group">                                         
                                                 <label class="control-label" for="email">Correo electrónico</label>
                                                 <div class="controls">
-                                                    <input type="text" name = "delete_email" class="span4" id="email">
+                                                    <input type="text" name = "delete_email" placeholder="example@server.com" class="span4" id="email">
                                                 </div> <!-- /controls -->               
                                             </div> <!-- /control-group -->
                                             

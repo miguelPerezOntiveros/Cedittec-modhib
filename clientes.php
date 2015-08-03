@@ -166,7 +166,7 @@
         ?>
                                     <form id="crear" class="form-horizontal" method = "post" action = 'clientes.php' >
                                         <fieldset>
-                                            <h4>Nombre oficial</h4>
+                                            <h4>Nombre Oficial</h4>
                                             <input type="text"                  name="display" required="" placeholder=""/>
                                             <input type = "hidden" name = "crear" value = "true">
                                             <h4>Responsable</h4>
@@ -188,40 +188,40 @@
                                                 ?>
                                             </select>
                                             <h4>Información General</h4>
-                                            Nombre de la Institucion
-                                            <input type="text"                  name="razonSocial" required="" placeholder="Institución"/>
+                                            Nombre de la Institución
+                                            <input type="text"                  name="razonSocial" required="" />
                                             RFC
-                                            <input type="text"                  name="rfc" required="" placeholder="XXXXXXXXXX"/>
+                                            <input type="text"                  name="rfc" required="" />
                                             <br>
                                             <h4>Representante Legal</h4>
-                                            <input type="text" class="hidden"   name="representanteLegal" placeholder = "Representatnte legal" />
+                                            <input type="text" class="hidden"   name="representanteLegal"  />
                                             Nombre
-                                            <input type="text"                  name="nombreRepresentante"   required="" placeholder="Nombre" />
+                                            <input type="text"                  name="nombreRepresentante"   required=""  />
                                             Apellido
-                                            <input type="text"                  name="apellidoRepresentante" required="" placeholder="Apellido" />
-                                            Correo Electronico
+                                            <input type="text"                  name="apellidoRepresentante" required=""  />
+                                            Correo Electrónico
                                             <input                              name="email" type="email" required="" placeholder="example@server.com"/>
                                             <h4>Dirección de Cliente</h4>
                                             Calle
-                                            <input type="text"                  name="calle" required="" placeholder="Calle"/>
+                                            <input type="text"                  name="calle" required="" />
                                             Int
-                                            <input type="number"                name="numeroInt" required="" placeholder="NumInt"/>
+                                            <input type="number"                name="numeroInt" required="" />
                                             Ext
-                                            <input type="number"                name="numeroExt" required="" placeholder="NumExt"/>
+                                            <input type="number"                name="numeroExt" required="" />
                                             Colonia
-                                            <input type="text"                  name="colonia" required="" placeholder="Colonia"/><br />
+                                            <input type="text"                  name="colonia" required="" /><br />
                                             CP
-                                            <input type="number"                name="codigoPostal" required="" placeholder="CP"/>
+                                            <input type="number"                name="codigoPostal" required="" />
                                             Ciudad
-                                            <input type="text"                  name="ciudad" required="" placeholder="Ciudad"/>
+                                            <input type="text"                  name="ciudad" required="" />
                                             Estado
-                                            <input type="text"                  name="estado" required="" placeholder="Estado"/>
-                                            Pais
-                                            <input type="text"                  name="pais" required="" value="México" placeholder="Pais"/>
+                                            <input type="text"                  name="estado" required="" />
+                                            País
+                                            <input type="text"                  name="pais" required="" value="México" />
                                             <h4>Contacto</h4>
-                                            Telefono
-                                            <input type="text"                  name="lada" maxlength="3" min="0" max="999"  required="" class="Lada form-control" placeholder="Lada"/>
-                                            <input type="text" maxlength="7"    name="numTelefono" required="" placeholder="Tel"/>
+                                            Teléfono
+                                            <input type="text"                  name="lada" maxlength="3" min="0" max="999"  required="" class="Lada form-control" />
+                                            <input type="text" maxlength="7"    name="numTelefono" required="" />
                                             Tipo
                                             <select id="tipoTelefono"           name="tipoTelefono">
                                                 <option id="Fijo">Fijo</option>
@@ -356,37 +356,37 @@
                                 	<form id="crear" class="form-horizontal" method = "post" action = "clientes.php">
                                        <fieldset>
                                             <h4>Información General</h4>
-                                            Nombre de la Institucion
-                                            <input type="text"                  name="razonSocial" value = <?= "'".htmlentities($fila['razon_social'])."'" ?> required="" value="" placeholder="Institución"/>
+                                            Nombre de la Institución
+                                            <input type="text"                  name="razonSocial" value = <?= "'".htmlentities($fila['razon_social'])."'" ?> required="" value="" />
                                             RFC
-                                            <input type="text"                  name="rfc"                  value = <?= "'".htmlentities($fila['rfc'])."'" ?> required="" placeholder="XXXXXXXXXX"/>
+                                            <input type="text"                  name="rfc"                  value = <?= "'".htmlentities($fila['rfc'])."'" ?> required="" />
                                             <br>
                                             <h4>Representante Legal</h4>
                                             <input type="text" class="hidden"   name="representanteLegal"   value = <?= "'".htmlentities($fila['representante_legal'])."'" ?>/>
                                             Nombre
-                                            <input type="text"                  name="nombreRepresentante"  value = <?= "'".htmlentities($fila['nombre_representante'])."'" ?> required="" placeholder="Nombre" />
+                                            <input type="text"                  name="nombreRepresentante"  value = <?= "'".htmlentities($fila['nombre_representante'])."'" ?> required="" />
                                             Apellido
-                                            <input type="text"                  name="apellidoRepresentante" value = <?= "'".htmlentities($fila['apellido_representante'])."'" ?> required="" placeholder="Apellido" />
-                                            Correo Electronico
+                                            <input type="text"                  name="apellidoRepresentante" value = <?= "'".htmlentities($fila['apellido_representante'])."'" ?> required=""  />
+                                            Correo Electrónico
                                             <input                              name="email" type="email"   value = <?= "'".htmlentities($fila['email'])."'" ?> required="" placeholder="example@server.com"/>
                                             
                                             <h4>Dirección de Cliente</h4>
                                             Calle
-                                            <input type="text"                  name="calle"                value = <?= "'".htmlentities($filaD['calle'])."'" ?> required="" placeholder="Calle"/>
+                                            <input type="text"                  name="calle"                value = <?= "'".htmlentities($filaD['calle'])."'" ?> required="" />
                                             Int
-                                            <input type="number"                name="numeroInt"            value = <?= "'".htmlentities($filaD['numero_int'])."'" ?> required="" placeholder="NumInt"/>
+                                            <input type="number"                name="numeroInt"            value = <?= "'".htmlentities($filaD['numero_int'])."'" ?> required="" />
                                             Ext
-                                            <input type="number"                name="numeroExt"            value = <?= "'".htmlentities($filaD['numero_ext'])."'" ?> required="" placeholder="NumExt"/>
+                                            <input type="number"                name="numeroExt"            value = <?= "'".htmlentities($filaD['numero_ext'])."'" ?> required="" />
                                             Colonia
-                                            <input type="text"                  name="colonia"              value = <?= "'".htmlentities($filaD['colonia'])."'" ?> required="" placeholder="Colonia"/>
-                                            CP
-                                            <input type="number"                name="codigoPostal"         value = <?= "'".htmlentities($filaD['codigo_postal'])."'" ?> required="" placeholder="CP"/>
+                                            <input type="text"                  name="colonia"              value = <?= "'".htmlentities($filaD['colonia'])."'" ?> required="" />
+                                            <br> CP
+                                            <input type="number"                name="codigoPostal"         value = <?= "'".htmlentities($filaD['codigo_postal'])."'" ?> required="" />
                                             Ciudad
-                                            <input type="text"                  name="ciudad"               value = <?= "'".htmlentities($filaD['ciudad'])."'" ?> required="" placeholder="Ciudad"/>
+                                            <input type="text"                  name="ciudad"               value = <?= "'".htmlentities($filaD['ciudad'])."'" ?> required="" />
                                             Estado
-                                            <input type="text"                  name="estado"               value = <?= "'".htmlentities($filaD['estado'])."'" ?> required="" placeholder="Estado"/>
-                                            Pais
-                                            <input type="text"                  name="pais"                 value = <?= "'".htmlentities($filaD['pais'])."'" ?> required="" value="México" placeholder="Pais"/>
+                                            <input type="text"                  name="estado"               value = <?= "'".htmlentities($filaD['estado'])."'" ?> required="" />
+                                            País
+                                            <input type="text"                  name="pais"                 value = <?= "'".htmlentities($filaD['pais'])."'" ?> required="" />
                                            
                                            <!-- 
                                             <h4>Contacto</h4>
