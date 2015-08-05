@@ -106,7 +106,7 @@
                     
                 include 'mailer/mailSender.php';
                 sendMail(   
-                    "energia@emsmx.com", "energiaems",
+                    "modulohibrido@gmail.com", "pei214535",
                     $_POST['email'],
                     "Hemos creado tu cuenta en Híbrido",
                     "Contraseña: ".$passCreada
