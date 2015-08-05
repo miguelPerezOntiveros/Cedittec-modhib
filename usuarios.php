@@ -123,7 +123,7 @@
                 sendMail(   
                     "modulohibrido@gmail.com", "pei214535",
                     $_POST['insert_email'],
-                    "Hemos creado tu cuenta en Híbrido",
+                    "Hemos creado tu cuenta en ModHib",
                     "Contraseña: ".$passCreada
                     ); // user, pass, to, subject, msg.
         }catch(Exception $e){
