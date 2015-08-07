@@ -96,8 +96,8 @@
                 ?>
                          
                   <?php
-                    palomita('SISSA>Raspberry', $lastData['sc_estado_sissa_rasp_berry'], "SISSA>Raspberry");
-                    palomita('Raspberry>SISSA', $lastData['sc_estado_raspberry_sissa'], "Raspberry>SISSA");
+                    palomita('SISSA>Controlador', $lastData['sc_estado_sissa_rasp_berry'], "SISSA>Controlador");
+                    palomita('Controlador>SISSA', $lastData['sc_estado_raspberry_sissa'], "Controlador>SISSA");
                     palomita('Bomba', $lastData['sc_estado_bomba'],"Bomba");
                   ?>
                   <a class="shortcut">
